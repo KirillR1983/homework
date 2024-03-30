@@ -7,9 +7,6 @@ test()
 
 print('------------------------------------')
 
-def test2():
-    a = 20
-    b = 30
-    c = 40
+def test2(a, b, c):
     print(a, b, c)
-test2()
+test2(1, 2, 3)
